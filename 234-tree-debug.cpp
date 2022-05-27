@@ -3,10 +3,8 @@
  * 작성일 : 22/05/26
  * 테스트 : VS2022
  *
- * 2-3-4 트리를 시뮬레이션 동작 과정만 보고 구현해보기
+ * 234 트리를 시뮬레이션 동작 과정만 보고 구현해보기
  * 시뮬레이션 사이트 : https://www.cs.usfca.edu/~galles/visualization/BTree.html
- *
- 
  */
 
 #include <iostream>
@@ -36,13 +34,6 @@ public:
 	tree_node(int val1)
 		: value_count(1) {
 		values[0] = std::move(val1);
-	}
-
-	// 데이터 2개가 담긴 노드를 생성하는 경우
-	tree_node(const int val1, const int val2)
-		: value_count(2) {
-		values[0] = val1;
-		values[1] = val2;
 	}
 
 	// is_n_node(4) = 4노드냐?

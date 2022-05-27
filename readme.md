@@ -7,6 +7,13 @@
 
 
 
+해설 : 구현하면서 얻은 깨달음을 정리하였습니다.
+
+1. [삽입 설명 링크](https://blog.naver.com/wjdeh313/222745923201)
+2. [삭제 설명 링크](https://blog.naver.com/wjdeh313/222749211322)
+
+
+
 기능
 
 1. remove
